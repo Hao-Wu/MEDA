@@ -1,0 +1,547 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MFCsystem.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MFCsystem.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "多用途加解密分析系统"
+FONT 9, "微软雅黑"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "2008年首届全国大学生信息安全大赛参赛作品",IDC_STATIC,37,
+                    27,142,8,SS_NOPREFIX
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MFCSYSTEM_DIALOG DIALOGEX 0, 0, 511, 396
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RTLREADING | WS_EX_APPWINDOW
+CAPTION "多用途加解密分析系统"
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",TCS_FOCUSONBUTTONDOWN,
+                    3,6,507,389
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 449, 305
+STYLE DS_3DLOOK | WS_CHILD | WS_THICKFRAME
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,80,30,110,75,ES_MULTILINE | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO1,80,115,90,86,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT3,80,150,105,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,80,200,110,65,ES_MULTILINE | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2,310,30,110,75,ES_MULTILINE | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO2,310,115,90,77,CBS_DROPDOWN | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT4,310,150,110,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,310,201,110,65,ES_MULTILINE | WS_VSCROLL,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    GROUPBOX        "明文加密",IDC_STATIC,5,5,225,290
+    CTEXT           "明文加密",IDC_STATIC,92,10,58,8
+    LTEXT           "输入明文:",IDC_STATIC,20,35,40,12
+    LTEXT           "选择加密算法:",IDC_STATIC,10,115,60,12
+    LTEXT           "密钥:",IDC_STATIC,15,150,20,11
+    PUSHBUTTON      "加密",IDC_BUTTON2,102,172,43,17
+    CTEXT           "明文解密",IDC_STATIC,320,10,55,10
+    PUSHBUTTON      "添加密文>>",IDC_BUTTON3,240,35,60,15
+    LTEXT           "选择解密算法:",IDC_STATIC,240,115,65,12
+    LTEXT           "密钥:",IDC_STATIC,240,150,20,11
+    PUSHBUTTON      "解密",IDC_BUTTON4,341,173,43,17
+    PUSHBUTTON      "载入密文文本>>",IDC_BUTTON1,241,66,60,15
+    PUSHBUTTON      "保存",IDC_BUTTON5,101,270,43,17
+    PUSHBUTTON      "保存",IDC_BUTTON6,345,272,43,17
+    LTEXT           "显示密文:",IDC_STATIC,15,215,55,12
+    LTEXT           "显示明文:",IDC_STATIC,240,215,55,12
+    PUSHBUTTON      "载入明文文本>>",IDC_BUTTON8,13,63,60,15
+    GROUPBOX        "明文解密",IDC_STATIC,220,5,220,290
+    PUSHBUTTON      "清空所有",IDC_BUTTON9,200,275,50,14
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 440, 307
+STYLE WS_CHILD
+FONT 12, "宋体"
+BEGIN
+    PUSHBUTTON      "选择文件>>",IDC_Browse,16,35,55,15
+    EDITTEXT        IDC_Input,75,35,290,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "加密",IDC_Run,203,242,80,20
+    EDITTEXT        IDC_Output,75,65,290,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存路径...",IDC_OutFolder,16,65,55,15
+    GROUPBOX        "输入/输出",IDC_STATIC,0,15,430,120
+    GROUPBOX        "密钥",IDC_STATIC,0,140,430,70
+    LTEXT           "输入密钥：",IDC_STATIC,26,163,50,10
+    LTEXT           "确认密钥：",IDC_STATIC,25,188,50,10
+    EDITTEXT        IDC_DesKey,75,163,150,13,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DesKey2,75,186,150,12,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "选项",IDC_STATIC,0,215,430,80
+    CONTROL         "加密后删除原文件",IDC_DelOrgFileCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,234,105,10
+    CONTROL         "解密后删除解密文件",IDC_DelEptFileCHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,16,255,105,10
+    CONTROL         "删除前提示",IDC_DelNoteCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,274,105,10
+    CTEXT           "基于DES的文件加解密系统",IDC_STATIC,157,5,127,10
+    CONTROL         "使用默认路径",IDC_DefPathCHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,87,60,13
+    EDITTEXT        IDC_DefPath,75,100,290,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览目录...",IDC_DefFolder,370,100,50,15
+    LTEXT           "默认路径>>",IDC_STATIC123,29,104,41,8
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 457, 307
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "关于",IDC_BUTTON2,50,65,165,105
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 455, 312
+STYLE WS_CHILD
+FONT 12, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,74,65,103,95,ES_MULTILINE | WS_VSCROLL
+    EDITTEXT        IDC_EDIT2,97,170,80,13,ES_AUTOHSCROLL
+    LTEXT           "密钥:",IDC_STATIC,75,170,20,11
+    LTEXT           "输入明文>>",IDC_STATIC,74,49,50,11
+    EDITTEXT        IDC_EDIT3,74,17,102,12,ES_AUTOHSCROLL
+    LTEXT           "选择加密算法:",IDC_STATIC,5,10,60,12
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_TABSTOP,
+                    7,29,63,241,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "开始演示>>",IDC_BUTTON1,90,275,74,22
+    GROUPBOX        "演示区",IDC_STATIC,180,0,255,295
+    SCROLLBAR       IDC_VBAR,435,5,10,290,SBS_VERT
+    CONTROL         "",IDC_PIC,"Static",SS_BLACKFRAME | SS_SUNKEN | 
+                    WS_BORDER,180,10,255,285
+    SCROLLBAR       IDC_HBAR,180,295,265,10
+    PUSHBUTTON      "下一步>>",IDC_BUTTON2,185,270,40,20,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "载入文件>>",IDC_BUTTON3,130,45,45,15
+    EDITTEXT        IDC_EDIT4,74,210,103,60,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "显示密文:",IDC_STATIC,75,195,55,10
+    PUSHBUTTON      "上一步<<",IDC_BUTTON4,185,20,40,20,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+END
+
+IDD_DIALOG6 DIALOG DISCARDABLE  0, 0, 457, 312
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "帮助",IDC_BUTTON4,170,60,145,120
+END
+
+IDD_DIALOG7 DIALOG DISCARDABLE  0, 0, 209, 54
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+CAPTION "About"
+FONT 12, "华文楷体"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,170,33,32,14
+    LTEXT           "2008年首届全国大学生信息安全大赛参赛作品",IDC_STATIC,39,
+                    13,147,15,SS_NOPREFIX
+    ICON            IDR_MAINFRAME,IDC_STATIC2,9,13,20,20
+END
+
+IDD_DIALOG8 DIALOG DISCARDABLE  0, 0, 225, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,88,150,50,14
+    CONTROL         168,IDC_STATIC,"Static",SS_BITMAP,0,0,225,150
+END
+
+IDD_DIALOG9 DIALOG DISCARDABLE  0, 0, 220, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,85,150,50,14
+    CONTROL         170,IDC_STATIC,"Static",SS_BITMAP,0,0,220,150
+END
+
+IDD_DIALOG10 DIALOG DISCARDABLE  0, 0, 215, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,82,150,50,14
+    CONTROL         171,IDC_STATIC,"Static",SS_BITMAP,0,0,215,150
+END
+
+IDD_DIALOG11 DIALOG DISCARDABLE  0, 0, 220, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,85,150,50,14
+    CONTROL         172,IDC_STATIC,"Static",SS_BITMAP,0,0,220,150
+END
+
+IDD_DIALOG12 DIALOG DISCARDABLE  0, 0, 200, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,75,150,50,14
+    CONTROL         173,IDC_STATIC,"Static",SS_BITMAP,0,0,200,150
+END
+
+IDD_DIALOG13 DIALOG DISCARDABLE  0, 0, 187, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "2008年首届全国大学生信息安全竞赛参赛作品\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFCsystem Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MFCsystem\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "多用途加解密分析系统.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "多用途加解密分析系统\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MFCSYSTEM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 503
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 395
+        HORZGUIDE, 327
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 16
+        RIGHTMARGIN, 434
+        TOPMARGIN, 15
+        BOTTOMMARGIN, 301
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 447
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 445
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 450
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 7, 0
+0x6143, 0x7365, 0x7265, "\000" 
+    IDC_COMBO1, 0x403, 13, 0
+0x754d, 0x746c, 0x6c69, 0x7469, 0x7265, 0x6c61, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0x6c50, 0x7961, 0x6166, 0x7269, "\000" 
+    IDC_COMBO1, 0x403, 12, 0
+0x6550, 0x6d72, 0x7475, 0x7469, 0x6f69, 0x006e, 
+    IDC_COMBO1, 0x403, 7, 0
+0x6641, 0x6966, 0x656e, "\000" 
+    IDC_COMBO1, 0x403, 9, 0
+0x6956, 0x6567, 0x656e, 0x6572, "\000" 
+    IDC_COMBO1, 0x403, 4, 0
+0x4544, 0x0053, 
+    IDC_COMBO1, 0x403, 4, 0
+0x4352, 0x0034, 
+    IDC_COMBO1, 0x403, 4, 0
+0x5352, 0x0041, 
+    IDC_COMBO1, 0x403, 5, 0
+0x4449, 0x4145, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0x6143, 0x7365, 0x7265, "\000" 
+    IDC_COMBO2, 0x403, 13, 0
+0x754d, 0x746c, 0x6c69, 0x7469, 0x7265, 0x6c61, "\000" 
+    IDC_COMBO2, 0x403, 9, 0
+0x6c50, 0x7961, 0x6166, 0x7269, "\000" 
+    IDC_COMBO2, 0x403, 12, 0
+0x6550, 0x6d72, 0x7475, 0x7469, 0x6f69, 0x006e, 
+    IDC_COMBO2, 0x403, 7, 0
+0x6641, 0x6966, 0x656e, "\000" 
+    IDC_COMBO2, 0x403, 9, 0
+0x6956, 0x6567, 0x656e, 0x6572, "\000" 
+    IDC_COMBO2, 0x403, 4, 0
+0x4544, 0x0053, 
+    IDC_COMBO2, 0x403, 4, 0
+0x4352, 0x0034, 
+    IDC_COMBO2, 0x403, 4, 0
+0x5352, 0x0041, 
+    IDC_COMBO2, 0x403, 5, 0
+0x4449, 0x4145, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP6             BITMAP  DISCARDABLE     "Picture\\DES_PC1.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "Picture\\DES_PC2.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "Picture\\DES_IP.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "Picture\\DES_EBOX.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "Picture\\DES_pbox.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 MFCsystem(&A)..."
+    IDC_BTNCHANGESELECT1    "交换选择表1"
+    IDC_BTNCHANGESELECT2    "交换选择表2"
+    IDC_BTNZHIHUANBIAO      "置换表"
+    IDC_BTNKUOCHONGHE       "扩充盒 E盒"
+    IDC_BTNTIHUANHE         "替换盒 S盒"
+    IDC_BTNZHIHUANHE        "置换盒 P盒"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MFCsystem.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

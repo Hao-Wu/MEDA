@@ -1,0 +1,163 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MFCsystem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MFCsystem.res" /d "NDEBUG" "E:\Personal\user\桌面\作品\MEDA\MEDA\MFCsystem.rc"" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP16B.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/MFCsystem.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Personal\user\桌面\作品\MEDA\MEDA\affine.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Bigint.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Caeser.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\DES.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Des2.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog1.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog10.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog11.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog12.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog13.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog2.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog3.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog4.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog6.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog7.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog8.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog9.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\FileInOut.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Gfl.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\MFCsystem.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\MFCsystemDlg.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Multiliteral.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\MyFileDialog.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\MyRsa.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Permutation.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\RC4.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\RSA.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Window.cpp"
+"E:\Personal\user\桌面\作品\MEDA\MEDA\Vigenere.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP16B.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP16C.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/MFCsystem.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Personal\user\桌面\作品\MEDA\MEDA\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP16C.tmp" 
+Creating temporary file "C:\DOCUME~1\user\LOCALS~1\Temp\RSP16D.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MFCsystem.pdb" /machine:I386 /out:"Release/MFCsystem.exe" 
+".\Release\affine.obj"
+".\Release\Bigint.obj"
+".\Release\Caeser.obj"
+".\Release\DES.obj"
+".\Release\Des2.obj"
+".\Release\Dialog1.obj"
+".\Release\Dialog10.obj"
+".\Release\Dialog11.obj"
+".\Release\Dialog12.obj"
+".\Release\Dialog13.obj"
+".\Release\Dialog2.obj"
+".\Release\Dialog3.obj"
+".\Release\Dialog4.obj"
+".\Release\Dialog6.obj"
+".\Release\Dialog7.obj"
+".\Release\Dialog8.obj"
+".\Release\Dialog9.obj"
+".\Release\FileInOut.obj"
+".\Release\Gfl.obj"
+".\Release\IDEA.OBJ"
+".\Release\MFCsystem.obj"
+".\Release\MFCsystemDlg.obj"
+".\Release\Multiliteral.obj"
+".\Release\MyFileDialog.obj"
+".\Release\MyRsa.obj"
+".\Release\Permutation.obj"
+".\Release\playfair.obj"
+".\Release\RC4.obj"
+".\Release\RSA.obj"
+".\Release\StdAfx.obj"
+".\Release\Window.obj"
+".\Release\Vigenere.obj"
+".\Release\MFCsystem.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\user\LOCALS~1\Temp\RSP16D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+affine.cpp
+Bigint.cpp
+Caeser.cpp
+DES.cpp
+Des2.cpp
+Dialog1.cpp
+Dialog10.cpp
+Dialog11.cpp
+Dialog12.cpp
+Dialog13.cpp
+Dialog2.cpp
+Dialog3.cpp
+Dialog4.cpp
+E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog4.cpp(3277) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog4.cpp(3293) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog4.cpp(3560) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\Dialog4.cpp(3569) : warning C4018: '<' : signed/unsigned mismatch
+Dialog6.cpp
+Dialog7.cpp
+Dialog8.cpp
+Dialog9.cpp
+FileInOut.cpp
+Gfl.cpp
+IDEA.CPP
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(53) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(54) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(65) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(66) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(76) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(77) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(116) : warning C4005: 'CONST' : macro redefinition
+        D:\VC98\INCLUDE\windef.h(138) : see previous definition of 'CONST'
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(356) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(374) : warning C4101: 'to_or_from' : unreferenced local variable
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(373) : warning C4101: 'temp' : unreferenced local variable
+E:\Personal\user\桌面\作品\MEDA\MEDA\IDEA.CPP(373) : warning C4101: 'fp' : unreferenced local variable
+Generating Code...
+Compiling...
+MFCsystem.cpp
+MFCsystemDlg.cpp
+Multiliteral.cpp
+MyFileDialog.cpp
+MyRsa.cpp
+Permutation.cpp
+playfair.cpp
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(19) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(25) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(30) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(60) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(68) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(84) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(156) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(164) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(195) : warning C4018: '<' : signed/unsigned mismatch
+E:\Personal\user\桌面\作品\MEDA\MEDA\playfair.cpp(221) : warning C4018: '<' : signed/unsigned mismatch
+RC4.cpp
+RSA.cpp
+Window.cpp
+Vigenere.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MFCsystem.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
